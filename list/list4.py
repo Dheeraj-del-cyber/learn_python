@@ -1,0 +1,11 @@
+students=["dheeraj","dhanush","karthik","baggu"]
+number=[1,7,4,3,6,5,2]
+students.append("mayur")
+print(students)
+students.remove("dheeraj")
+print(students)
+number.sort()
+print(number)
+n=["dhanush","karthik","zebra","adhi"]
+n.sort()
+print(n)

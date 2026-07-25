@@ -3,6 +3,7 @@ numbers=[]
 for i in range(n):
     number=int(input())
     numbers.append(number)
+print(numbers)
 for number in numbers:
     if numbers[0]==7:
         print("YES")

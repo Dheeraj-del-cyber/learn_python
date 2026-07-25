@@ -3,13 +3,13 @@ numbers=[]
 for i in range(n):
     number=int(input())
     numbers.append(number)
-print(numbers)
 for number in numbers:
-    if numbers[0]==7:
+    first_digit=int(str(number)[0])
+    if first_digit==7:
         print("YES")
-    elif numbers[0]==8:
+    elif first_digit==8:
         print("YES")
-    elif numbers[0]==9:
+    elif first_digit==9:
         print("YES")
     else:
         print("NO")        

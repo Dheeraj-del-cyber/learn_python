@@ -8,3 +8,4 @@ for num in nums:
     if num % 2 == 0:
         count += 1
 print("The number of even numbers is:", count) 
+print()
